@@ -8,7 +8,7 @@ class Lc756 {
         int len = row.length;
         int n = len/2;
         UnionFind find = new UnionFind(n);
-        for(int i =0;i<n;i+=2) {
+        for(int i =0;i<len;i+=2) {
             find.union(row[i]/2, row[i+1]/2);
         }
         return n -find.getCount();
