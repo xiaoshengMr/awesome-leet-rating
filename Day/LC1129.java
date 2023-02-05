@@ -12,7 +12,7 @@ public class LC1129 {
         for(int i=0;i<2;i++) 
             for(int j=0;j<n;j++) 
                 next[i][j] = new ArrayList<Integer>();
-
+                
         for(int [] edge : redEdges)
             next[0][edge[0]].add(edge[1]);   
         

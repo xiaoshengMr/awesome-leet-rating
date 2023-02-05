@@ -29,6 +29,7 @@ public class LC1210 {
                         q.add(new int[] {x,y,s});
                     }
                 }
+                
             }
         }
         return -1;
